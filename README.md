@@ -1,12 +1,5 @@
 # Тест на знание основ laravel
 
-Репозиторий служит целью проверки знаний основ фреймворка laravel, в рамках тем указанных в roadmap здесь:
-[CutCode Junior Roadmap](https://cutcode.ru/roadmap)
-
-[Видео инструкции](https://youtube.com)
-
-Цель создания такого тестирования было охватить базовые разделы laravel и научиться на практике покрывать тестами проект на laravel.
-
 # Оглавление по темам
 1. [Миграции](#task-migrations)
 2. [Маршрутизация](#task-route)
@@ -20,10 +13,17 @@
 # Установка
 - `composer install`
 - `php artisan key:generate`
+
+ 
+  Либо используйте docker-compose:
+- `docker-compose up -d --build`
+- `docker-compose exec laravel.test php artisan key:generate`
+
+
 - .env с реквизитами mysql базы данных
 - КРАЙНЕ ВАЖНО ЧТОБЫ БАЗА ДАННЫХ НАЗЫВАЛАСЬ laravel_skill_test
 
-Либо используйте docker-compose
+
 
 # Потребуется
 - php >= 7.3
